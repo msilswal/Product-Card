@@ -8,7 +8,7 @@ const pcDescription = "small, portable computer that has a screen, keyboard, and
 function App() {
   return(<>
     <ProductCard productImg={keyboard} productName={'keyboard'} price={20} currentStatus={'Available'} about={'TVS Electronics Gold Prime USB-A Mechanical Keyboard Black'}/>
-    <br />
+    
     <ProductCard productImg={laptop} productName={'laptop'} price={2500} currentStatus={'out of stock'} about={pcDescription}/>
    
   
